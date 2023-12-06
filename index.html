@@ -12,21 +12,71 @@
         <p>Real-time Posture Monitoring</p>
     </header>
     <main>
+        <section id="posture-monitoring-system">
+            <h2>Posture Monitoring System</h2>
+            <p>This project is a real-time posture monitoring system using computer vision techniques. It uses the webcam of a computer to analyze the user's posture and provide feedback on their sitting position. The system detects and tracks the user's face and shoulders, calculates the relative distance between them, and analyzes various angles and ratios to determine the posture quality.</p>
+            
+            <p>GitHub Repository: <a href="https://github.com/venky180/slouch_detector" target="_blank">https://github.com/venky180/slouch_detector</a></p>
+
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#contributing">Contributing</a></li>
+                <li><a href="#license">License</a></li>
+            </ul>
+
+            <h3>Installation</h3>
+            <ol>
+                <li>Clone the repository: <code>git clone https://github.com/your-username/posture-monitoring-system.git</code></li>
+                <li>Install the required dependencies: <code>pip install -r requirements.txt</code></li>
+            </ol>
+
+            <h3>Usage</h3>
+            <ol>
+                <li>Run the <code>slouch.py</code> script: <code>python slouch.py</code></li>
+                <li>The system will access the webcam and start capturing the video feed.</li>
+                <li>The detected face and shoulder landmarks will be highlighted on the video stream.</li>
+                <li>The system will analyze the posture based on various criteria, such as relative distance, shoulder angle, face angle, and more.</li>
+                <li>If the system detects poor posture, it will provide real-time notifications to the user.</li>
+            </ol>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Real-time posture monitoring using computer vision techniques</li>
+                <li>Detection and tracking of facial landmarks</li>
+                <li>Calculation of relative distance between face and shoulders</li>
+                <li>Analysis of shoulder angles and face angles</li>
+                <li>Real-time notifications for poor posture</li>
+            </ul>
+
+            <h3>Roadmap</h3>
+            <p>This project has the following planned enhancements:</p>
+            <ul>
+                <li>Calibrating the system for each user to improve accuracy and personalization</li>
+                <li>Environmental calibration to handle variations in lighting, background, and other factors</li>
+                <li>Progress tracking over time to provide insights and improvements for the user</li>
+                <li>Tracking and analysis of common mistakes made by the user to target specific areas of improvement</li>
+                <li>Integration with smartwatches for convenient posture notifications</li>
+                <li>Collecting data to establish average sitting postures for different individuals and settings</li>
+            </ul>
+
+            <h3>Contributing</h3>
+            <p>Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please submit a pull request. For major changes, please open an issue first to discuss the proposed changes.</p>
+        </section>
         <section id="intro">
-            <h2>Introduction</h2>
-            <p>Posture-related problems are widespread, with 80% of Americans experiencing issues. Poor sitting posture can lead to discomfort and health complications. The Slouch Detector project aims to provide real-time feedback on sitting posture using computer vision technologies, promoting better spinal alignment and reducing health risks.</p>
+            <!-- Introduction content here -->
         </section>
         <section id="motivation">
-            <h2>Motivation</h2>
-            <p>Due to the prevalence of posture-related problems, there's a need for proactive measures. The Slouch Detector project, leveraging MediaPipe and OpenCV, offers real-time feedback to users, helping them monitor and correct their sitting posture. The goal is to empower individuals to adopt healthier habits and prevent future health complications.</p>
+            <!-- Motivation content here -->
         </section>
         <section id="goals">
-            <h2>Goals</h2>
-            <p>The primary goals of the Slouch Detector project include continuous real-time monitoring of sitting posture, providing immediate feedback to users, offering guidelines for posture maintenance, and ensuring minimal setup and device requirements. The project aims to make posture monitoring accessible and user-friendly for widespread adoption.</p>
+            <!-- Goals content here -->
         </section>
         <section id="approach">
-            <h2>Approach</h2>
-            <p>The Slouch Detector project utilizes OpenCV for computer vision tasks, including video capture for real-time monitoring. MediaPipe Pose is employed for accurate body pose estimation, enabling the detection of slouching or poor posture. The project also leverages Plyer for cross-platform notifications. The approach involves a combination of technologies to achieve real-time monitoring, immediate feedback, and posture-related features.</p>
+            <!-- Approach content here -->
         </section>
     </main>
     <footer>
